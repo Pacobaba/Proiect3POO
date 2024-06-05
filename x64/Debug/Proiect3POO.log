@@ -1,0 +1,8 @@
+﻿  Proiect3POO.cpp
+C:\Users\vrabi\OneDrive\Documents\GitHub\Proiect3POO\include\entitate.h(81,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\vrabi\OneDrive\Documents\GitHub\Proiect3POO\include\fabrica.h(19,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\vrabi\OneDrive\Documents\GitHub\Proiect3POO\include\fabrica.h(53,64): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\vrabi\OneDrive\Documents\GitHub\Proiect3POO\Proiect3POO.cpp(9,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\vrabi\OneDrive\Documents\GitHub\Proiect3POO\include\fabrica.h(63): warning C4715: 'Fabrica::CreareComoaraRandom': not all control paths return a value
+C:\Users\vrabi\OneDrive\Documents\GitHub\Proiect3POO\include\joc.h(64): warning C4715: 'joc::alegereDeLaComoara': not all control paths return a value
+  Proiect3POO.vcxproj -> C:\Users\vrabi\OneDrive\Documents\GitHub\Proiect3POO\x64\Debug\Proiect3POO.exe
