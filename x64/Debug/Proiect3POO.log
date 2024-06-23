@@ -6,3 +6,5 @@ C:\Users\vrabi\OneDrive\Documents\GitHub\Proiect3POO\Proiect3POO.cpp(9,15): warn
 C:\Users\vrabi\OneDrive\Documents\GitHub\Proiect3POO\include\fabrica.h(63): warning C4715: 'Fabrica::CreareComoaraRandom': not all control paths return a value
 C:\Users\vrabi\OneDrive\Documents\GitHub\Proiect3POO\include\joc.h(64): warning C4715: 'joc::alegereDeLaComoara': not all control paths return a value
   Proiect3POO.vcxproj -> C:\Users\vrabi\OneDrive\Documents\GitHub\Proiect3POO\x64\Debug\Proiect3POO.exe
+C:\Users\vrabi\OneDrive\Documents\GitHub\Proiect3POO\include\fabrica.h(17): warning C26451: Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).
+C:\Users\vrabi\OneDrive\Documents\GitHub\Proiect3POO\include\joc.h(168): warning C26495: Variable 'joc::Terminat' is uninitialized. Always initialize a member variable (type.6).

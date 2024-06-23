@@ -1,0 +1,149 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/vrabi/OneDrive/Documents/GitHub/Proiect3POO/include/fabrica.h"
+                },
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 41,
+                  "endLine": 17,
+                  "endColumn": 45
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Fabrica::esteInInterval",
+                  "decoratedName": "?esteInInterval@Fabrica@@CAHHV?$vector@HV?$allocator@H@std@@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'joc::Terminat' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/vrabi/OneDrive/Documents/GitHub/Proiect3POO/include/joc.h"
+                },
+                "region": {
+                  "startLine": 168,
+                  "startColumn": 1,
+                  "endLine": 168,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "joc::{ctor}",
+                  "decoratedName": "??0joc@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "joc::Terminat"
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.35.32217.1",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/vrabi/OneDrive/Documents/GitHub/Proiect3POO/include/fabrica.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "451210ffb96608654cee6ed03c16d5110c6ca784028a20ada1c09e4b9fe90d43"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/vrabi/OneDrive/Documents/GitHub/Proiect3POO/include/joc.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "3cc8417945db78d6ee3cd6ddc039c76748c51bb9ebc525986782f31676553d34"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/vrabi/onedrive/documents/github/proiect3poo/proiect3poo.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "6cafdd681c48cec30a04942d789f3c4f54cd51d226dc025ea079c38a1060d4c4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/vrabi/onedrive/documents/github/proiect3poo/include/comoara.h"
+          },
+          "hashes": {
+            "sha-256": "5345db7db02976ca0a1ce211cde0ae088a6eed7c38b71245249478425ed37ba3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/vrabi/onedrive/documents/github/proiect3poo/include/entitate.h"
+          },
+          "hashes": {
+            "sha-256": "ea04fce2f22abe9795d92ff05e76863bdcb4d8004f872b93801d4dab8f9c86bc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/vrabi/onedrive/documents/github/proiect3poo/include/jucator.h"
+          },
+          "hashes": {
+            "sha-256": "454fed44d4b320be18c048ef1d6e9f8d16837f1aacab086b43538bd3e714ab2e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/vrabi/onedrive/documents/github/proiect3poo/include/inamic.h"
+          },
+          "hashes": {
+            "sha-256": "9d586e39719996a03b47f4bfbb4291825f44615f348ba7dce227eefd85fc453d"
+          }
+        }
+      ]
+    }
+  ]
+}
